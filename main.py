@@ -11,8 +11,8 @@ from spotipy.oauth2 import SpotifyOAuth
 scope = "playlist-modify-private"
 
 spotify = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope,
-                                                    client_id= '8ebaa659c71d4c508ec63ad55c48cd4a',
-                                                    client_secret='a9c1c446c9ab423593b075955abbb447',
+                                                    client_id= 'PERSONAL CLIENT ID',
+                                                    client_secret='PERSONAL CLIENT SECRET',
                                                     redirect_uri='http://example.com',
                                                     username='125459156',
                                                     show_dialog=True,
